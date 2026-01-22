@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>idn-cart</title>
+    <link rel="Stylesheet" href="src/style.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="py-4 shadow-sm">
+      <div class="container flex items-center justify-between">
+        <!-- Logo -->
+        <a href="index.html">
+          <img src="/images/logo.svg" alt="" />
+        </a>
+
+        <!-- Search Bar -->
+        <div class="w-full max-w-xl relative flex">
+          <span class="absolute left-4 top-3 text-lg text-gray-400">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </span>
+          <input
+            type="text"
+            class="w-full border border-primary border-r-0 pl-12 py-3 pr-3 rounded-1-md focus:outline-none"
+            placeholder="Search"
+          />
+          <button
+            class="bg-primary border border-primary text-white px-8 rounded-r-md hover:bg-transparent hover:text-primary transition"
+          >
+            Search
+          </button>
+        </div>
+
+        <!-- Icons -->
+        <div class="flex items-center space-x-4">
+          <a
+            href="#"
+            class="text-gray-700 hover:text-primary transition relative"
+          >
+            <div class="text-2xl">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="text-xs leading-3">Wishlist</div>
+            <span
+              class="absolute bg-primary rounded-full text-white display-flex items-center justify-center w-5 h-5 right-0 top-1"
+              >8</span
+            >
+          </a>
+          <a
+            href="#"
+            class="text-gray-700 hover:text-primary transition relative"
+          >
+            <div class="text-2xl">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+            <div class="text-xs leading-3">Cart</div>
+            <span
+              class="absolute bg-primary rounded-full text-white display-flex items-center justify-center w-5 h-5 right-0 top-1"
+              >8</span
+            >
+          </a>
+          <a
+            href="#"
+            class="text-gray-700 hover:text-primary transition relative"
+          >
+            <div class="text-2xl">
+              <i class="fa-regular fa-user"></i>
+            </div>
+            <div class="text-xs leading-3">Account</div>
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- navbar -->
+    <nav class="bg-gray-800">
+      <div class="container flex">
+        <!-- all categories -->
+        <div
+          class="bg-primary text-white px-8 py-4 cursor-pointer relative group"
+        >
+          <span class="mr-2"><i class="fa-solid fa-bars"></i></span>
+          <span class="capitalize">all categories</span>
+          <!-- dropdown -->
+          <div
+            class="bg-white py-3 absolute w-full top-full left-0 shadow divide divide-y divide-red-200 opacity-0 group-hover:opacity-100 transition duration-300"
+          >
+            <!-- single category -->
+            <a href="" class="flex px-6 py-3 hover:bg-gray-100 transition">
+              <img
+                class="w-5 h-5 object-contain"
+                src="public/images/icons/sofa.svg"
+                alt=""
+              />
+              <span class="ml-6 text-gray-600 text-sm capitalize">sofa</span>
+            </a>
+            <a href="" class="flex px-6 py-3 hover:bg-gray-100 transition">
+              <img
+                class="w-5 h-5 object-contain"
+                src="public/images/icons/bed-2.svg"
+                alt=""
+              />
+              <span class="ml-6 text-gray-600 text-sm capitalize">bed</span>
+            </a>
+            <a href="" class="flex px-6 py-3 hover:bg-gray-100 transition">
+              <img
+                class="w-5 h-5 object-contain"
+                src="public/images/icons/delivery-van.svg"
+                alt=""
+              />
+              <span class="ml-6 text-gray-600 text-sm capitalize">van</span>
+            </a>
+            <a href="" class="flex px-6 py-3 hover:bg-gray-100 transition">
+              <img
+                class="w-5 h-5 object-contain"
+                src="public/images/icons/restaurant.svg"
+                alt=""
+              />
+              <span class="ml-6 text-gray-600 text-sm capitalize"
+                >restaurant</span
+              >
+            </a>
+            <a href="" class="flex px-6 py-3 hover:bg-gray-100 transition">
+              <img
+                class="w-5 h-5 object-contain"
+                src="public/images/icons/terrace.svg"
+                alt=""
+              />
+              <span class="ml-6 text-gray-600 text-sm capitalize">terrace</span>
+            </a>
+            <a href="" class="flex px-6 py-3 hover:bg-gray-100 transition">
+              <img
+                class="w-5 h-5 object-contain"
+                src="public/images/icons/outdoor-cafe.svg"
+                alt=""
+              />
+              <span class="ml-6 text-gray-600 text-sm capitalize"
+                >outdoor cafe</span
+              >
+            </a>
+            <a href="" class="flex px-6 py-3 hover:bg-gray-100 transition">
+              <img
+                class="w-5 h-5 object-contain"
+                src="public/images/icons/phone.svg"
+                alt=""
+              />
+              <span class="ml-6 text-gray-600 text-sm capitalize">phone</span>
+            </a>
+            <!-- single category end -->
+          </div>
+        </div>
+        <!-- all categories end -->
+        <!-- nav links -->
+        <div class="flex items-center justify-between flex-grow pl-12">
+          <div class="flex space-x-6">
+            <a class="text-gray-300 hover:text-white" href="">Home</a>
+            <a class="text-gray-300 hover:text-white" href="">Shop</a>
+            <a class="text-gray-300 hover:text-white" href="">Abous Us</a>
+            <a class="text-gray-300 hover:text-white" href="">Contact Us</a>
+          </div>
+          <div class="space-x-6">
+            <a class="text-gray-300 hover:text-white" href="">Login</a>
+            <a class="text-gray-300 hover:text-white" href="">Register</a>
+          </div>
+        </div>
+        <!-- nav links end -->
+      </div>
+    </nav>
+    <!-- navbar end -->
+  </body>
+</html>
