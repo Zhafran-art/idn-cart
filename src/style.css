@@ -23,13 +23,22 @@
 @layer utilities {
   .container {
     margin-inline: auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@layer components {
+  .size-selector input:checked + label {
+    @apply bg-primary text-white;
+  }
+  .color-selector input:checked + label {
+    @apply ring-2 ring-primary;
   }
 }
 
 body {
   font-family: var(--font-poppins);
-  background-color: #f9f9f9;
-  color: #333;
 }
 
 h1,
