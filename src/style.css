@@ -32,8 +32,28 @@
   .size-selector input:checked + label {
     @apply bg-primary text-white;
   }
+
   .color-selector input:checked + label {
     @apply ring-2 ring-primary;
+  }
+
+  .input-box {
+    @apply block w-full border
+    border-gray-300 px-4 py-3
+    text-gray-600
+    text-sm rounded
+    focus:border-primary
+    focus:ring-0
+    placeholder-gray-300;
+  }
+  .select-box {
+    @apply block w-full border
+    border-gray-300 px-4 py-3
+    text-gray-600
+    text-sm rounded
+    focus:border-primary
+    focus:ring-0
+    placeholder-gray-300;
   }
 }
 
