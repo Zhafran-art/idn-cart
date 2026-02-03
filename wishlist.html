@@ -242,7 +242,7 @@
           <div class="pb-3 pl-8 space-y-1">
             <a
               href="account.html"
-              class="relative text-primary block font-semibold capitalize transition"
+              class="relative text-gray-800 hover:text-primary block font-semibold capitalize transition"
             >
               <span class="absolute -left-8 top-0 text-base">
                 <i class="fa-regular fa-address-card"></i>
@@ -250,13 +250,13 @@
               Manage Account
             </a>
             <a
-              href=""
-              class="relative block text-primary capitalize transition"
+              href="account.html"
+              class="relative text-gray-800 block hover:text-primary capitalize transition"
             >
               Profile info
             </a>
             <a
-              href="account.html"
+              href=""
               class="relative text-gray-800 block hover:text-primary capitalize transition"
             >
               manage address
@@ -322,8 +322,8 @@
           <!-- Single Link -->
           <div class="py-3 pl-8 space-y-1">
             <a
-              href="wishlist.html"
-              class="relative text-gray-800 hover:text-primary block font-semibold capitalize transition"
+              href=""
+              class="relative text-primary block font-semibold capitalize transition"
             >
               <span class="absolute -left-8 top-0 text-base">
                 <i class="fa-regular fa-heart"></i>
@@ -349,98 +349,95 @@
         <!-- Sidebar Links End -->
       </div>
       <!-- Sidebar End -->
-      <!-- Profile -->
-      <div class="col-span-9 shadow rounded px-6 pt-5 pb-7">
-        <h4 class="text-xl uppercase font-medium text-gray-800 mb-5">
-          My Profile
-        </h4>
-        <div class="space-y-4">
-          <!-- Fprm Row -->
-          <div class="grid grid-cols-2 gap-4">
-            <!-- Single Input -->
-            <div>
-              <label for="" class="text-gray-600 mb-2 block">First Name</label>
-              <input
-                type="text"
-                class="input-box"
-                placeholder="Please Enter Your Name"
-                value="Hugo"
-              />
+      
+      <!-- Wishlist -->
+      <div class="col-span-9  space-y-4">
+        <!-- single wishlist -->
+        <div class="flex items-center justify-between border border-gray-200 p-4 gap-6 rounded">
+            <!-- Wishlist image -->
+            <div class="w-28">
+                <img src="public/images/products/product4.jpg" class="w-full">
             </div>
-            <!-- SInge Input end -->
-            <!-- Single Input -->
-            <div>
-              <label for="" class="text-gray-600 mb-2 block">Last Name</label>
-              <input
-                type="text"
-                class="input-box"
-                placeholder="Please Enter Your Name"
-                value="Vlad"
-              />
+            <!-- Wishlist image End -->
+            <!-- Wishlist content -->
+            <div class="w-1/3">
+                <h2 class="uppercase font-medium text-gray-800 text-xl">Mockingbird King Bed</h2>
+                <p class="text-gray-500 text-sm">Availability: <span class="text-green-600">in Stock</span></p>
             </div>
-            <!-- SInge Input end -->
-          </div>
-          <!-- Form Row End -->
-          <!-- Fprm Row -->
-          <div class="grid grid-cols-2 gap-4">
-            <!-- Single Input -->
-            <div>
-              <label for="" class="text-gray-600 mb-2 block"
-                >Date of Birth</label
-              >
-              <input
-                type="date"
-                class="input-box"
-                placeholder="Please Enter Your Date of Birth"
-              />
+            <!-- Wishlist content end-->
+            
+            <div class="text-primary font-semibold text-lg">Rp 1.200.000</div>
+            <a href="" class="bg-primary px-6 py-2 rounded text-white uppercase text-sm font-medium border border-primary hover:bg-transparent hover:text-primary transition">Add to Cart</a>
+            <div class="cursor-pointer text-gray-800 hover:text-primary">
+                <i class="fas fa-trash"></i>
             </div>
-            <!-- SInge Input end -->
-            <!-- Single Input -->
-            <div>
-              <label for="" class="text-gray-600 mb-2 block">Gender</label>
-              <select name="select-box" id="select-box" class="select-box">
-                <option value="male" selected>Male</option>
-                <option value="Female">Female</option>
-              </select>
-            </div>
-            <!-- SInge Input end -->
-          </div>
-          <!-- Form Row End -->
-          <!-- Fprm Row -->
-          <div class="grid grid-cols-2 gap-4 pb-3">
-            <!-- Single Input -->
-            <div>
-              <label for="" class="text-gray-600 mb-2 block"
-                >Email address</label
-              >
-              <input
-                type="email"
-                class="input-box"
-                placeholder="Please Enter Your Email Address"
-              />
-            </div>
-            <!-- SInge Input end -->
-            <!-- Single Input -->
-            <div>
-              <label for="" class="text-gray-600 mb-2 block"
-                >Phone Number</label
-              >
-              <input
-                type="number"
-                class="input-box"
-                placeholder="Please Enter Your Phone Number"
-              />
-            </div>
-            <!-- SInge Input end -->
-          </div>
-          <!-- Form Row End -->
-          <button
-            class="bg-primary border border-primary px-4 py-3 text-white font-medium rounded uppercase hover:bg-transparent hover:text-primary transition"
-          >
-            Save Changes
-          </button>
         </div>
+        <!-- single wishlist end -->
+        <!-- single wishlist -->
+        <div class="flex items-center justify-between border border-gray-200 p-4 gap-6 rounded">
+            <!-- Wishlist image -->
+            <div class="w-28">
+                <img src="public/images/products/product10.jpg" class="w-full">
+            </div>
+            <!-- Wishlist image End -->
+            <!-- Wishlist content -->
+            <div class="w-1/3">
+                <h2 class="uppercase font-medium text-gray-800 text-xl">Victoria Houskeeping Armchair</h2>
+                <p class="text-gray-500 text-sm">Availability: <span class="text-red-600">Out of Stock</span></p>
+            </div>
+            <!-- Wishlist content end-->
+            
+            <div class="text-primary font-semibold text-lg">Rp 554.000</div>
+            <div class="bg-primary cursor-not-allowed px-6 py-2 rounded text-white uppercase text-sm font-medium border border-primary">Add to Cart</div>
+            <div class="cursor-pointer text-gray-800 hover:text-primary">
+                <i class="fas fa-trash"></i>
+            </div>
+        </div>
+        <!-- single wishlist end -->
+        <!-- single wishlist -->
+        <div class="flex items-center justify-between border border-gray-200 p-4 gap-6 rounded">
+            <!-- Wishlist image -->
+            <div class="w-28">
+                <img src="public/images/products/product6.jpg" class="w-full">
+            </div>
+            <!-- Wishlist image End -->
+            <!-- Wishlist content -->
+            <div class="w-1/3">
+                <h2 class="uppercase font-medium text-gray-800 text-xl">Yunkui Holiday Chair</h2>
+                <p class="text-gray-500 text-sm">Availability: <span class="text-green-600">in Stock</span></p>
+            </div>
+            <!-- Wishlist content end-->
+            
+            <div class="text-primary font-semibold text-lg">Rp 5.200.000</div>
+            <a href="" class="bg-primary px-6 py-2 rounded text-white uppercase text-sm font-medium border border-primary hover:bg-transparent hover:text-primary transition">Add to Cart</a>
+            <div class="cursor-pointer text-gray-800 hover:text-primary">
+                <i class="fas fa-trash"></i>
+            </div>
+        </div>
+        <!-- single wishlist end -->
+        <!-- single wishlist -->
+        <div class="flex items-center justify-between border border-gray-200 p-4 gap-6 rounded">
+            <!-- Wishlist image -->
+            <div class="w-28">
+                <img src="public/images/products/product2.jpg" class="w-full">
+            </div>
+            <!-- Wishlist image End -->
+            <!-- Wishlist content -->
+            <div class="w-1/3">
+                <h2 class="uppercase font-medium text-gray-800 text-xl">H.S.O.6 Sick asaba chair</h2>
+                <p class="text-gray-500 text-sm">Availability: <span class="text-green-600">in Stock</span></p>
+            </div>
+            <!-- Wishlist content end-->
+            
+            <div class="text-primary font-semibold text-lg">Rp 2.500.000</div>
+            <a href="" class="bg-primary px-6 py-2 rounded text-white uppercase text-sm font-medium border border-primary hover:bg-transparent hover:text-primary transition">Add to Cart</a>
+            <div class="cursor-pointer text-gray-800 hover:text-primary">
+                <i class="fas fa-trash"></i>
+            </div>
+        </div>
+        <!-- single wishlist end -->
       </div>
+      <!-- Wishlist End-->      
     </div>
     <!-- Account Wrapper End -->
 
